@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Liking Likes</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="black">Network</h1>
+        <h1 class="center">Your Feed</h1>
+    </div>
+
+<div class="flex">
+    <div class="col-1">
+        <div class="avatar flex">
+            <img src="images/lex twitter.jpg" alt="lex">
+            <a href="#">Change your avatar</a>
+            <h1>Real Lex</h1>
+        </div>
+    </div>
+
+    <div class="col-3">
+    <div class="post flex">
+        <div class="user flex align-center">
+            <h1>NOT Lex</h1>
+            <div class="likes flex align-center">
+                <h2><span id="likes1">3</span> like(s)</h2>
+                <button onclick="addLike(currentLikes1, 0)">Like</button>
+            </div>
+        </div>
+        <h3>**NEW** <a href="#">RANCH Flavored COCA-COLA</a>?! Yeah it's new! That's the only good thing I have to say about it. Oh my god it tastes so awful.</h3>
+    </div>
+
+    <div class="post flex">
+        <div class="user flex align-center">
+            <h1>DEFINETLY NOT Lex</h1>
+            <div class="likes flex align-center">
+                <h2><span id="likes2">12</span> like(s)</h2>
+                <button onclick="addLike(currentLikes2, 1)">Like</button>
+            </div>
+        </div>
+        <h3>Ok, I'm sorry about my last post. I won't post about ranch flavored Coca-Cola anymore. Here's my <a href="#">apology</a>.</h3>
+    </div>
+
+    <div class="post flex">
+        <div class="user flex align-center">
+            <h1>ABSOLUTELY NOT Lex</h1>
+            <div class="likes flex align-center">
+                <h2><span id="likes3">9</span> like(s)</h2>
+                <button onclick="addLike(currentLikes3, 2)">Like</button>
+            </div>
+        </div>
+        <h3>Yo... I know I just promised I wouldn't... but like... THE COCA-COLA COMPANY JUST DROPPED A <a href="#">MUSTARD FLAVORED SPRITE</a>?!</h3>
+    </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
